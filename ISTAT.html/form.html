@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <style>
+        button{
+            background-color: brown;
+            text-align: center;
+        }
+        fieldset{
+            background-color: aqua;
+        }
+        legend{
+            text-align: center;
+            color: rgb(226, 43, 43);
+        }
+        div{
+            text-align: left;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <!--
+        form
+        - action = "/html/index.html"
+        - 
+        -->
+        <fieldset>
+            <legend>USER INFORMATION</legend>
+            <form action="#">
+                <div>
+                 <label for="Username">Username</label>
+                 <input type="text" id="Username" id="Username" name="Username" placeholder="Inter Username" required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" id="email" name="Email" placeholder="Input Email" required>
+                   </div>
+             <br><br>
+                <div>
+                 <label for="Password">Password</label>
+                 <input type="Password" id="Password" id="Password" name="Password" placeholder="Password" required>
+                </div>
+                <br>
+                <div>
+                    <label for="major">major</label>
+                    <input type="radio" id="major" name="major" value=" IT">
+    
+                    <label for="IT">IT</label>
+                    <input type="radio" id="IT" name="major" value=" IT">
+                    
+                    <label for="marketing">marketing</label>
+                    <input type="radio" id="marketing" name="major" value=" IT">
+                </div>
+                <br>
+                <div>
+                    <!--hobby checkbox-->
+                    <label>Select your hobby</label>
+                    <label for="read ">Read</label>
+                    <input type="checkbox" id="read" name="hobby">
+                    <label for="resech ">resech</label>
+                    <input type="checkbox" id="resech" name="hobby">
+                    <label for="travel ">travel</label>
+                    <input type="checkbox" id="travel" name="hobby">
+                </div>
+                <br>
+                <div>
+                    <label for="pob">Place of birth</label>
+                    <select name="pob" id="pob">
+                        <option value="">Kompong cham</option>
+                        <option value="">Kompong cham</option>
+                        <option value="">Phnom penh</option>
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <!--textarea-->
+                    <label for="Messege">Messege</label>
+                    <textarea name="textarea" id="textarea"></textarea>
+                </div>
+                <br>
+                <div>
+                    <label for="photo">Profile</label>
+                    <!--multiple for usere uplot alot fo photo-->
+                    <input type="file" id="photo" name="Profile" multiple>
+                </div>
+                <br>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </fieldset>
+    </main>
+    
+</body>
+</html>

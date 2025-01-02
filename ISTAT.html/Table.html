@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Lission</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            background-color: salmon;
+        }
+        th[scope="col"]{
+            background-color: gold;
+            
+        }
+        th[scope="row"]{
+            background-color: aqua;
+            
+        }
+        th[scope="col2"]{
+            background-color: blueviolet;
+        }
+        td[scope="data"]{
+            background-color: brown;
+        }
+
+       
+    </style>
+</head>
+<body>
+    <main>
+        <table border="1" width = 300 >
+            <thead>
+                <tr>
+                    <th rowspan="2" scope = "col">Name </th>
+                    <th rowspan="2" scope = "col">ID </th>
+                    <th colspan="2" scope = "col">Mambership </th>
+                    <th rowspan="2" scope = "col">Balane </th>
+                </tr>
+                <tr>
+                    <th scope = "col2">Join</th>
+                    <th scope = "col2">Cencal</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope = "row">Dara</th>
+                    <td scope = "deta">101</td>
+                    <td scope = "deta">2022</td>
+                    <td scope = "deta">2024</td>
+                    <td scope = "deta">1000$</td>
+                </tr>
+                <tr>
+                    <th scope = "row">Dara</th>
+                    <td scope = "deta">101</td>
+                    <td scope = "deta">2022</td>
+                    <td scope = "deta">2024</td>
+                    <td scope = "deta">1000$</td>
+                </tr>
+                <tr>
+                    <th scope = "row">Dara</th>
+                    <td scope = "deta">101</td>
+                    <td scope = "deta">2022</td>
+                    <td scope = "deta">2024</td>
+                    <td scope = "deta">1000$</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr >
+                    <td colspan="4">Total Balane</td>
+                    <td>3000$</td>
+                </tr>
+                
+            </tfoot>
+
+        </table>
+    </main>
+    
+</body>
+</html>
