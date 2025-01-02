@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="intrx.css">
+    <title>Test code</title>
+
+    <style>
+       .content{
+        border: 1px;
+        border-collapse: collapse;
+        text-align: left;
+        width: 400px;
+        
+       }
+       .content,thead,tr,th{
+        background-color: rgb(0, 52, 52);
+        color: aliceblue;
+        font-weight:bold ;
+
+       }
+    </style>
+
+</head>
+<body>
+    <main>
+        <h1 style="color: chartreuse;">Hello</h1>
+        
+    </main>
+<main>
+    <table border="1" class="content">
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Name</th>
+                <th rowspan="2" scope="col">ID</th>
+                <th colspan="2" scope="col">Mambership</th>
+                <th rowspan="2" scope="col">Balane</th>
+
+            </tr>
+            <tr>
+                <th scope="col2">Join</th>
+                <th scope="col2">Cencal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">Chan that</th>
+                <td>101</td>
+                <td>2022</td>
+                <td>2024</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <th scope="row">Chan Chan</th>
+                <td>101</td>
+                <td>2022</td>
+                <td>2024</td>
+                <td>1000$</td>
+            </tr>
+            <tr>
+                <th scope="row">Chan thy</th>
+                <td>101</td>
+                <td>2022</td>
+                <td>2024</td>
+                <td>1000$</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4" scope="score">Score total:</td>
+                <td scope="total">100000$</td>
+            </tr>
+        </tfoot>
+    </table>
+</main>
+</body>
+</html>

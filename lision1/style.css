@@ -1,0 +1,26 @@
+
+            h1{
+                font-family: 'Courier New', Courier, monospace; color: aqua;
+            }
+            p{
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: blueviolet; font-size: medium;
+            }
+            body{
+            
+                background-color: rgba(207, 185, 45, 0.691);
+                font-size: large;
+            }
+            #listname{
+                width: 60%;
+                text-align: center;
+                border-collapse:collapse ;
+            }
+            #listname th,td{
+                border: 1px solid black;
+                padding: 10px;
+            }
+            .listname li{
+                border: 1px solid black;
+                padding: 10px;
+            }
+           
